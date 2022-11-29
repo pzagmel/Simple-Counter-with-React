@@ -11,8 +11,8 @@ const SecondsCounter = (props) => {
   return (
     <div className="Contador">
       <div className="reloj">
-        <i className="fas fa-clock"> </i>{" "}
-      </div>{" "}
+        <i className="fas fa-clock"> </i>
+      </div>
       <div className="seis"> {props.digitoSeis} </div>{" "}
       <div className="cinco"> {props.digitoCinco} </div>{" "}
       <div className="cuatro"> {props.digitoCuatro} </div>{" "}
@@ -97,6 +97,6 @@ setInterval(function () {
     />,
     document.querySelector("#app")
   );
-}, 5);
+}, 1000);
 
 //render your react application
