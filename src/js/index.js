@@ -97,6 +97,6 @@ setInterval(function () {
     />,
     document.querySelector("#app")
   );
-}, 1000);
+}, 100);
 
 //render your react application
